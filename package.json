@@ -1,7 +1,7 @@
 {
   "name": "react-context-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Getting familiar with the React Context API",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {

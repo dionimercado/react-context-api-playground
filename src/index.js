@@ -6,6 +6,7 @@ import reducer from "./reducer";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 import "./styles.css";
 
@@ -19,7 +20,7 @@ const App = () => {
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/dashboard" component={Dashboard} />
+          <ProtectedRoute path="/dashboard" component={Dashboard} />
         </Switch>
       </BrowserRouter>
     </Context.Provider>
